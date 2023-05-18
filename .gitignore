@@ -1,0 +1,28 @@
+# Ignore all build artifacts and binaries
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore all files and directories that are generated or used by your IDE
+.idea/
+.vscode/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.ldb
+
+# Ignore all package manager directories
+node_modules/
+vendor/
+packages/
+
+# Exclude Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
